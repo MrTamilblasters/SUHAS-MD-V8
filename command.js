@@ -15,8 +15,8 @@
 
 
 
-// * Project name - SUHAS- MD 
-// * Author - Suhas Pathsindu
+// * Project name - HIRU- MD 
+// * Author - Hirusha Idusara
 // * Team - Suhas Bro 
 // * Version - V2
 
