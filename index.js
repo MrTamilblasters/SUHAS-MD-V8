@@ -14,8 +14,8 @@
 
 
 
-// * Project name - SUHAS- MD 
-// * Author - Suhas Pathsindu
+// * Project name - HIRU- MD 
+// * Author - Hirusha Idusara
 // * Team - Suhas Bro 
 // * Version - V2
 
@@ -67,7 +67,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting SUHAS MD WHATSAPP BOT 💦...");
+console.log("Connecting HIRU MD WHATSAPP BOT 💦...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -87,7 +87,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('🧚‍♂️ SUHAS-MD-V8 Install Successfully. 🧚‍♂️')
+console.log('🧚‍♂️ HIRU-MD-V8 Install Successfully. 🧚‍♂️')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -97,7 +97,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful 🧬✅')
 console.log('SUHAS-MD Bot Connected to WhatsApp Succesful 🧬✅')
 
-let up = `SUHAS-MD Connected Successful 🤖✅\n\nPREFIX: ${prefix}\n\n Main CMD: .menu/.allmenu\n\n Bot Main Owner : Suhas Pathsindu💞\n\n *🧬Don't Forget To Subscibe My YouTube Channel*\n www.youtube.com/@suhasbro\n\n *🧬Follow Your WhatsApp Channel*\n https://www.whatsapp.com/channel/0029VagKNUe96H4IdMbr9f2o\n\nThanks For Usings 𝚂𝚄𝙷𝙰𝚂-𝙼𝙳-𝚅8❤️\n\n\n> *© 𝙿𝚘𝚠𝚎𝚛𝚍 𝙱𝚢 🧚‍♂️⃝𝚂𝚄𝙷𝙰𝚂-𝙼𝙳 𝚅8 💕⃟* `;
+let up = `SUHAS-MD Connected Successful 🤖✅\n\nPREFIX: ${prefix}\n\n Main CMD: .menu/.allmenu\n\n Bot Main Owner : Hirusha Idusara💞\n\n *🧬Don't Forget To Subscibe My YouTube Channel*\n www.youtube.com/@suhasbro\n\n *🧬Follow Your WhatsApp Channel*\n https://www.whatsapp.com/channel/0029VagKNUe96H4IdMbr9f2o\n\nThanks For Usings 𝚂𝚄𝙷𝙰𝚂-𝙼𝙳-𝚅8❤️\n\n\n> *© 𝙿𝚘𝚠𝚎𝚛𝚍 𝙱𝚢 🧚‍♂️⃝HIRU-𝙼𝙳 𝚅8 💕⃟* `;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/F8DfWKM/cjfff-1.jpg` }, caption: up })
 
