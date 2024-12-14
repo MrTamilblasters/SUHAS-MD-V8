@@ -46,8 +46,8 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-
-const ownerNumber = ['🧚‍♂️💕𝗔𝗱𝗱 𝗬𝗼𝘂𝗿 𝗕𝗼𝘁 𝗡𝘂𝗺𝗯𝗲𝗿 𝗛𝗲𝗿𝗲 𝗪𝗶𝘁𝗵 𝗖𝗼𝘂𝗻𝘁𝗿𝘆 𝗖𝗼𝗱𝗲💕🧚‍♂️']
++94 75 607 4683
+const ownerNumber = ['']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
